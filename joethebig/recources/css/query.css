@@ -12,6 +12,134 @@
     @media screen and (max-width:990px) {
         .text-sec {
             padding: 90px 20px;
+            @media screen and (max-width: 1200px) {
+                .text-sec {
+                    box-sizing: border-box;
+                    padding: 90px 20px
+                }
+                .text-box p {
+                    width: auto;
+                    text-align: justify;
+                }
+            }
+            @media screen and (max-width:990px) {
+                .text-sec {
+                    padding: 90px 20px;
+                }
+                .text-box p {
+                    width: auto;
+                    text-align: center;
+                    font-size: 35px;
+                    line-height: 1.5 !important;
+                    padding-top: 0 !important;
+                    padding-bottom: 0 !important;
+                    letter-spacing: -1px !important;
+                    word-spacing: 0px;
+                }
+                .text>span {
+                    width: 80px;
+                    height: 10px;
+                }
+                .text span .b-circle {
+                    height: 75px;
+                    width: 75px;
+                }
+            }
+            @media screen and (max-width:800px) {
+                .video {
+                    width: 100% !important;
+                    height: 100vh !important;
+                }
+            }
+            @media screen and (max-width:768px) {
+                .social-box ul li {
+                    padding: 5px;
+                }
+                .text-box p {
+                    width: auto;
+                    text-align: center;
+                    font-size: 30px;
+                    line-height: 1.5 !important;
+                    padding-top: 0 !important;
+                    padding-bottom: 0 !important;
+                    letter-spacing: -1px !important;
+                    word-spacing: 0px;
+                }
+                .video {
+                    height: 100vh !important;
+                    width: 100% !important;
+                }
+            }
+            @media screen and (max-width:650px) {
+                .next-section {
+                    text-align: center;
+                }
+                .next-section a img {
+                    position: absolute;
+                    bottom: 3rem;
+                    right: 45% !important;
+                    color: #fff;
+                    font-size: 40px;
+                    animation: 3s down infinite ease-in-out;
+                }
+                @keyframes down {
+                    50% {
+                        bottom: 5rem;
+                    }
+                }
+                .social-box ul li {
+                    padding: 5px;
+                }
+                .text-box p {
+                    width: auto;
+                    text-align: justify;
+                    letter-spacing: 3px;
+                }
+                .video11 {
+                    display: none;
+                }
+                .video22 {
+                    display: block;
+                }
+            }
+            @media screen and (max-width:570px) {
+                .foot {
+                    text-align: center !important;
+                }
+            }
+            @media screen and (max-width:470px) {
+                .text-sec {
+                    padding: 90px 20px 50px 20px;
+                    background-color: #F1EBE7;
+                    margin: auto;
+                }
+                .text-box {
+                    padding: 0;
+                }
+                .text-box p {
+                    width: auto;
+                    text-align: center;
+                    letter-spacing: 3px;
+                }
+            }
+            @media screen and (max-width:414px) {
+                .video2 {
+                    height: 100vh !important;
+                    width: 100% !important;
+                }
+            }
+            @media screen and (max-width:375px) {
+                .video2 {
+                    height: 100vh !important;
+                    width: 100% !important;
+                }
+            }
+            @media screen and (max-width:320px) {
+                .video2 {
+                    height: 100vh !important;
+                    width: 100% !important;
+                }
+            }
         }
         .text-box p {
             width: auto;
@@ -36,7 +164,7 @@
     @media screen and (max-width:800px) {
         .video {
             width: 100% !important;
-            height: 670px !important;
+            height: 100vh !important;
         }
     }
     
@@ -55,7 +183,7 @@
             word-spacing: 0px;
         }
         .video {
-            height: 670px !important;
+            height: 100vh !important;
             width: 100% !important;
         }
     }
