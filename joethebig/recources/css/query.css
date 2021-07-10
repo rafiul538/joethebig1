@@ -117,21 +117,21 @@
     
     @media screen and (max-width:414px) {
         .video2 {
-            height: 670px !important;
+            height: 100vh !important;
             width: 100% !important;
         }
     }
     
     @media screen and (max-width:375px) {
         .video2 {
-            height: 670px !important;
+            height: 100vh !important;
             width: 100% !important;
         }
     }
     
     @media screen and (max-width:320px) {
         .video2 {
-            height: 568px !important;
+            height: 100vh !important;
             width: 100% !important;
         }
     }
