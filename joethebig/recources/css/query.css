@@ -10,9 +10,6 @@
     }
     
     @media screen and (max-width:990px) {
-        .video-sec{
-            top:0; !important;
-            left:0% !important;
         .text-sec {
             padding: 90px 20px;
         }
@@ -120,7 +117,7 @@
     
     @media screen and (max-width:414px) {
         .video2 {
-            height: 720px !important;
+            height: 670px !important;
             width: 100% !important;
         }
     }
