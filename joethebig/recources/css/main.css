@@ -62,6 +62,10 @@ video {
     width: 100%;
 }
 
+.video2 {
+    background-color: #000;
+}
+
 .video22 {
     background-color: #000;
     display: none;
