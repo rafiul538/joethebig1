@@ -28,6 +28,7 @@
                 }
                 .text-box p {
                     width: auto;
+                    font-family: 'Minion Pro', sans-serif;
                     text-align: center;
                     font-size: 35px;
                     line-height: 1.5 !important;
