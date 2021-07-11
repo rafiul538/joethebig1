@@ -111,7 +111,7 @@ video {
 .text-box p {
     width: 920px;
     text-align: center;
-    font-family: min-regular;
+    font-family: 'Minion Pro', sans-serif;
     font-size: 40px;
     line-height: 1.5 !important;
     padding-top: 0 !important;
