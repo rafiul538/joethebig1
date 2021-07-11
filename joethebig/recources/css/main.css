@@ -25,9 +25,12 @@
                      fonts
 ===========================================================*/
 
+@font-face {
+    font-family: 'min-regular';
+    src: url(recources/font/MinionPro-Regular.otf), url(recources/font/MinionPro-Bold.otf), url(recources/font/MinionPro-BoldCnIt.otf), url(recources/font/MinionPro-BoldIt.otf), url(recources/font/MinionPro-It.otf), url(recources/font/MinionPro-Medium.otf), url(recources/font/MinionPro-MediumIt.otf), url(recources/font/MinionPro-Semibold.otf), url(recources/font/MinionPro-SemiboldIt.otf);
+}
 
 @import url('http://fonts.cdnfonts.com/css/minion-pro');
-
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
 
 /*=================================================================
@@ -58,10 +61,6 @@ video {
 .video {
     height: 100vh !important;
     width: 100%;
-}
-
-.video2 {
-    background-color: #000;
 }
 
 .video22 {
@@ -109,7 +108,7 @@ video {
 .text-box p {
     width: 920px;
     text-align: center;
-    font-family: 'Minion Pro', sans-serif;
+    font-family: 'min-rgular', 'Minion Pro', sans-serif;
     font-size: 40px;
     line-height: 1.5 !important;
     padding-top: 0 !important;
