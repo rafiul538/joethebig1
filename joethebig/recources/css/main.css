@@ -25,10 +25,8 @@
                      fonts
 ===========================================================*/
 
-@font-face {
-    src: url(recources/font/MinionPro-Regular.otf);
-    font-family: min-regular;
-}
+
+@import url('http://fonts.cdnfonts.com/css/minion-pro');
 
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
 
